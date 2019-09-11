@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    
+    outline: 1px solid white;
+  }
+
+  .main-container {
+      background-color: #334867;
+      height: 400px;
+      width: 800px;
+      display: flex;
+      margin: 0 auto;
+  }
+
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1;
+      flex-direction: row;
+    align-items: center;
+  }
+
+  .item {
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+  }
+
