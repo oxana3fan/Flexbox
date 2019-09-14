@@ -19,12 +19,21 @@
       display: flex;
       flex-wrap: wrap;
       flex: 1;
-      flex-direction: row;
-    align-items: center;
   }
 
-  .item {
-    flex: 1;
+  .item-right {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 50%;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+
+  .item-left {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 33.33%;
     flex-direction: row;
     align-items: center;
   }
